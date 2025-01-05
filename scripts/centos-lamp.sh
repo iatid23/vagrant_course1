@@ -25,7 +25,7 @@ sudo systemctl start httpd
 yum install -y php php-devel php-cli phph-common 
 
 # MySQL
-yum install -y mysql mysql-devel myswl-server
+yum install -y mysql mysql-devel mysql-server
 sudo systemctl enable mysqld 
 sudo systemctl start mysqld 
 sudo systemctl status mysqld
