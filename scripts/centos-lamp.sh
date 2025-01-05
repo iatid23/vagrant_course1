@@ -24,7 +24,7 @@ sudo firewall-cmd --reload
 sudo systemctl start httpd
 
 # PHP
-yum install -y php php-devel php-cli phph-common 
+yum install -y php php-devel php-cli php-common 
 
 # MySQL
 yum install -y mysql mysql-devel mysql-server
