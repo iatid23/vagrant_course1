@@ -18,6 +18,8 @@ ln -s /vagrant /var/www/html
 
 sudo setenforce 0
 sestatus
+sudo firewall-cmd --permanent --add-service=http
+sudo firewall-cmd --reload
 
 sudo systemctl start httpd
 
